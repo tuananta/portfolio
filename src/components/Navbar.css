@@ -1,0 +1,28 @@
+ #div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  /* color:oklch(0.76 0.01 264); */
+  color:oklch(0.2 0.005 264);
+  height: 50px;
+  /* background-color: oklch(0.2 0.005 264); */
+  padding: 0;
+}
+
+.div-flex {
+  padding: 0 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.div-flex:hover {
+  color:oklch(0.3 0.12 75); /* hiệu ứng hover nhẹ */
+  font-weight:700;
+  
+}

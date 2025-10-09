@@ -1,0 +1,108 @@
+#div-contain-biggest {
+  height: 100vh;               
+  width:100vw;
+  display: flex;               
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-image: url("./lake.jpg");
+}
+/* h1{
+  font-style: italic;
+  color:oklch(0.2 0.005 264);
+  font-weight: 100;
+  margin:0;
+  padding:0;
+} */
+#big-name{
+  color:oklch(0.2 0.005 264);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 50px;
+
+}
+#div-blur-part {
+  border-radius: 25px;
+  /* border-top-left-radius: 25px; */
+  width: 80%;
+  height: 80%;
+  /* position:absolute; */
+  /* z-index:1; */
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  /* display:flex; */
+  padding-top:10px;
+  margin-left:10px;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding-bottom:30px;
+
+  
+  
+}
+#section-navbar{
+  /* background-color:oklch(0.2 0.005 264); */
+  padding-top: 10px;
+  margin-top:150px;
+  margin-bottom: 30px;
+
+
+}
+#section-info-img{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  display:flex;
+  height:80%;
+  align-items: center;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+}
+#div-image{
+  width:30%;
+  height: 600px;  
+  /* margin-top: -25px; */
+  background-size: cover;
+  /* height:70%; */
+  background-position: center;
+  align-items: center; 
+  /* padding-bottom:300px; */
+  background-image: url("./annet.PNG");
+  
+  
+}
+
+#div-infor{
+  padding:20px;
+  width:25%;
+  height:50%;
+  word-wrap: break-word; /* Đảm bảo từ dài bị ngắt nếu cần thiết */
+  overflow-wrap: break-word;
+  margin-top:170px;
+  margin-left:100px;
+  border:1px solid oklch(0.96 0.05 264);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+
+}
+#div-infor2{
+  padding:20px;
+  width:25%;
+  height:50%;
+  margin-bottom:170px;
+  margin-right:100px;
+  border:1px solid oklch(0.96 0.05 264);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.infor{
+  font-size: larger;
+   color:oklch(0.2 0.005 264);
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+}
+

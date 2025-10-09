@@ -1,0 +1,72 @@
+#div-comp-container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    background-color: rgb(146, 86, 86);
+    flex-direction: column;
+    /* margin-top:50px; */
+    align-items:center;
+    gap:50px;
+    background-image: url('./lake.jpg');
+
+}
+#section-intro{
+    padding:30px 50px;
+    /* border-top-left-radius: 25px;
+    border-top-right-radius: 25px; */
+    border-radius: 25px;
+    width:80%;
+    height:20%;
+    margin-top:100px;
+    /* background-color: blueviolet; */
+    background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  color:#0a0520;
+  font-style: italic;
+    
+}
+#section-detail{
+    /* border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+    border-radius: 25px;
+    margin-bottom:50px;
+    display:flex;
+    width:80%;
+    height:80%;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
+#div-logo-comp{
+    width:20%;
+    height:80%;
+    border-radius: 25px;
+    /* margin-top:150px;*/
+    margin-left:30px; 
+    background-image:url('./lake.jpg');
+}
+#div-skill-container{
+    width:70%;
+    height:70%;
+    margin-top:-50px;
+    /* background-color: oklch(0.2 0.025 264); */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+
+}
+.div-skill{
+    height: 100%;
+    border-radius:25px;
+    background-color: oklch(0.15 0.025 264);;
+    color:oklch(0.96 0.05 264);
+    /* display: flex; */
+    font-size: 15px;
+
+}
+.div-skill:hover{
+    background-color:oklch(0.96 0.05 264);
+    color:darkblue;
+}
