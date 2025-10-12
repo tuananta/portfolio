@@ -9,8 +9,8 @@ import Contact from './pages/Contact.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Portfolio/>
-    <Project/>
     <Competence/>
+    <Project/>
     <Contact/>
   </StrictMode>,
 )

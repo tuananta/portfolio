@@ -83,7 +83,7 @@ background-image: url('./lake.jpg');
 }
 
 .div-project-flex:nth-of-type(2) .div-img {
-  background-image: url('./lake.jpg');
+  background-image: url('./unimap.png');
   background-size: cover;
   background-position: center;
 }

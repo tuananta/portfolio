@@ -16,7 +16,7 @@ function Contact(){
                     <p>Email : <a href="mailto:tatuanan2003@gmail.com">tatuanan2003@gmail.com </a></p>
                 </div>
                 <div className="div-option">
-                    <a href="[Đường dẫn GitHub của bạn]" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/tuananta/tuananta.github.io" target="_blank" rel="noopener noreferrer">
                         Voir mon GitHub
                     </a>
                 </div>
