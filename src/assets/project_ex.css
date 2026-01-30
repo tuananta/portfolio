@@ -6,6 +6,8 @@
     width: 100%;
     padding: 60px 20px;
     box-sizing: border-box;
+    background-color: oklch(0.1 0.025 264);
+    
 }
 
 
@@ -37,7 +39,7 @@
 
 .div-project-flex {
     width: 350px;            
-    background: #1a1a1a;
+    
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -46,6 +48,7 @@
     border: 1px solid #333;
     color:oklch(0.96 0.05 264);
 }
+
 
 
 .div-project-flex:hover {

@@ -6,7 +6,7 @@ function Competence(){
         <section id="section-intro">
             <h2>Compétences en Action</h2>
             <p>Je cherche à perfectionner mes compétences et à contribuer activement à des projets concrets et innovants.</p>
-            <p>De React.js pour les interfaces dynamiques à Node.js/Python pour l'API et PostgreSQL pour les données. Je traduis la théorie en projets Full-Stack concrets, attestant de mon esprit créatif et de ma capacité d'apprentissage.</p>
+            <p>Dans mon parcours, j'ai eu l'opportunité de maîtriser divers langages và outils pour concrétiser mes projets.</p>
 
         </section>
         <section id="section-detail">
@@ -26,7 +26,7 @@ function Competence(){
                     <ul>
                         <h3>Back-end</h3>
                         <li>Node.js: Création et appel d'API REST, gestion des routes.</li>
-                        <li>Python: Traitement des données et scripts back-end.</li>
+                        <li>Python, JavaScript, Java, C: Traitement des logics.</li>
                     </ul>
                 </div>
                 <div className="div-skill">

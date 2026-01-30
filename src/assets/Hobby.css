@@ -33,6 +33,7 @@
     color:oklch(0.96 0.05 264);
     letter-spacing: 2px;
     font-size: 1.8rem;
+    font-family:'Times New Roman', Times, serif;
    
     font-style: italic;
 }
