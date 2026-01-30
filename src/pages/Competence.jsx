@@ -43,7 +43,7 @@ function Competence(){
                         <li>Capacité d'apprentissage rapide</li>
                         <li>Esprit de progression</li>
                         <li>Travail d'équipe efficace</li>
-                        <li>Créativité</li>
+                        
                     </ul>
                 </div>
             </div>
