@@ -50,11 +50,12 @@
 #div-skill-container{
     width:70%;
     height:70%;
-    margin-top:-50px;
+    margin-top:-20px;
+    margin-bottom:40px;
     /* background-color: oklch(0.2 0.025 264); */
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap:10px;
+    gap:0px;
 
 }
 .div-skill{
