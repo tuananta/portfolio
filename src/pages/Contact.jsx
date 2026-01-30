@@ -2,6 +2,7 @@ import '../assets/Contact.css';
 function Contact(){
     return (
         <div id="div-contact-container">
+            <div id="contacts"> </div>
             <section id="section-script">
 
             <p>Merci sincèrement d'avoir pris le temps de parcourir mon portfolio et d'être arrivé jusqu'à cette section.</p>

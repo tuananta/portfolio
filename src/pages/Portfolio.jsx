@@ -9,6 +9,7 @@ function Portfolio() {
   return (
     <>
       <div id="div-contain-biggest">
+        <div id="home"></div>
         <div id="div-blur-part">
           <section id="section-navbar">
             <Navbar/>

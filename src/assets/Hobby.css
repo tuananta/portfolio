@@ -1,0 +1,98 @@
+#hobby-film-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+
+.film-black-bar {
+    height: 15%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.film-holes {
+    width: 100%;
+    height: 20px;
+    background-image: radial-gradient(circle, #333 35%, transparent 35%);
+    background-size: 30px 30px;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.bar-top .film-holes { bottom: 10px; }
+.bar-bottom .film-holes { top: 10px; }
+
+.hobby-title {
+    color:oklch(0.96 0.05 264);
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+   
+    font-style: italic;
+}
+
+
+.film-white-center {
+    flex: 1;
+    background-color:oklch(0.96 0.05 264);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instagram-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.photo-box {
+    width: 500px;  
+    height: 500px; 
+    background-color: #eee;
+    overflow: hidden;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.photo-caption {
+    margin-top: 15px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #262626;
+    font-size: 1.1rem;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000 !important;
+}
+
+
+@media (max-width: 550px) {
+    .photo-box {
+        width: 90vw;
+        height: 90vw;
+    }
+}

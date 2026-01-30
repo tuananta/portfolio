@@ -26,3 +26,16 @@
   font-weight:700;
   
 }
+/* Loại bỏ gạch chân và giữ màu chữ thừa hưởng từ thẻ cha */
+.div-flex a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: inherit;        /* Lấy màu chữ từ div mẹ (giúp giữ màu xám/đen bạn đã chọn) */
+    display: block;        /* Để thẻ a chiếm trọn diện tích của div-flex, dễ bấm hơn */
+    width: 100%;
+    height: 100%;
+}
+
+/* Đảm bảo khi đã click rồi (visited) màu không bị đổi sang màu tím */
+.div-flex a:visited {
+    color: inherit;
+}

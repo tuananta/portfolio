@@ -2,6 +2,7 @@ import '../assets/Competence.css';
 function Competence(){
     return (
         <div id="div-comp-container">
+            <div id="competences"></div>
         <section id="section-intro">
             <h2>Compétences en Action</h2>
             <p>Je cherche à perfectionner mes compétences et à contribuer activement à des projets concrets et innovants.</p>
